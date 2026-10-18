@@ -4,7 +4,7 @@ Port 8888
 Timeout 600
 MaxClients 50
 LogLevel Info
-LogFile "/dev/stdout"
+LogFile "/tmp/tinyproxy.log"
 PidFile "/tmp/tinyproxy.pid"
 BasicAuth __PROXY_USER__ __PROXY_PASSWORD__
 ConnectPort 443
